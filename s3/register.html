@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="register.php" method="get">
+        <fieldset>
+            <legend>Informations</legend>
+            <label for="groupe">groupe</label><br>
+            <input type="text" name="groupe" id="groupe" value="dev102" readonly>
+            <br>
+            <label for="name">Nom*</label><br>
+            <input type="text" name="nom" id="name" placeholder="merci de saisir votre nom" required >
+            <br>
+            <label for="prenom">Prenom</label><br>
+            <input type="text" name="prenom" id="prenom">
+            <br>
+            <label for="">Email*</label><br>
+            <input type="email" name="email" placeholder="exemple@gmail.com" required>
+            <br>
+        </fieldset>
+        <label for="">date de naissance</label><br>
+        <input type="date" name="naissance">
+        <br>
+        <label for="">mot de passe</label><br>
+        <input type="password" name="pwd">
+        <br>
+        <label for="">Note</label><br>
+        <input type="number" name="note" min="0" max="20" step="5" value="0" autofocus>
+        <br>
+        <label for="description">description</label><br>
+        <input type="text" name="description" id="description">
+        <br>
+        <label for="description">description</label><br>
+        <textarea name="description" id="description" cols="30" rows="3"></textarea>
+        <br>
+        <input type="radio" name="s" id="m" value="masculin"> <label for="m">Masculin</label>
+        <br>
+        <input type="radio" name="s" id="f" value="feminin"> <label for="f">Feminin</label>
+        <br>
+        <input type="checkbox" name="html" id="html"> <label for="m">HTML</label>
+        <br>
+        <input type="checkbox" name="css" id="css"> <label for="f">CSS</label>
+        <br>
+        <input type="checkbox" name="js" id="js"> <label for="f">JS</label>
+        <br>
+
+        <label for="">Ville*</label>
+        <select name="ville" id="ville" multiple required>
+            <option value="">Choisir ville</option>
+            <option value="c">Casablanca</option>
+            <option value="f">Fes</option>
+            <!-- ville=r -->
+            <option value="r">Rabat</option>
+            <!-- ville=Tanger -->
+            <option >Tanger</option>
+        </select>
+        <br>
+        <label for="vol">Volume (entre 0 and 50) :</label>
+        <input type="range" id="vol" name="vol" min="0" max="50">
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="Inscrire">
+        <input type="reset" value="Initialiser">
+
+    </form>
+</body>
+</html>
