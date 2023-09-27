@@ -1,0 +1,51 @@
+#dev1{
+    color: blue;
+}
+#dev2{
+    color: red;
+}
+#dev3{
+    color: green;
+}
+.danger{
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'dev101';
+    src: url('Fuggles-Regular.ttf');
+}
+
+/* .dev101{
+    color: red;
+    text-align: left;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dev102{
+    color: green;
+    text-align: left;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+#dev101{
+    color: red;
+    text-align: left;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#dev102{
+    color: green;
+    text-align: left;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* p{
+    text-align: justify;
+    direction: rtl;
+} */
