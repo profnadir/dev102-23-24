@@ -1,0 +1,33 @@
+#header{
+    background-color: gray;
+    height: 150px;
+    width: 100%;
+}
+#sidebar1{
+    background-color: red;
+    height: 450px;
+    width: 10%;
+    float: left;
+    
+}
+
+#sidebar2{
+    background-color: orange;
+    height: 450px;
+    width: 10%;
+    float: right;
+}
+
+#main{
+    background-color: green;
+    height: 450px;
+    width: 80%;
+    float: left;
+}
+
+#footer{
+    clear: both;
+    background-color: black;
+    height: 150px;
+    width: 100%;
+}

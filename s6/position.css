@@ -1,0 +1,29 @@
+body{
+    height: 4000px;
+}
+
+#myDiv1{
+    margin-top: 150px;
+    width: 800px;
+    height: 800px;
+    background-color: black;
+    position: relative;
+
+
+}
+#myDiv2{
+    width: 600px;
+    height: 600px;
+    background-color: gold;
+    
+
+
+}
+#myDiv3{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top:50px;
+    left: 50px;
+}

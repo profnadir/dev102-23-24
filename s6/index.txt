@@ -1,0 +1,41 @@
+Rappel:
+
+- typographie :  font-size text-aligns -text-decoration ...
+- box-shadow : v h o c;
+- text-shahow : v h o c;
+- border : s t c; border-radius
+- les selecteurs :
+    -- nom
+    -- id
+    -- class
+    -- elt1.class elt2#id
+    -- elt1,elt2
+    -- elt1 elt2
+    -- elt1 > elt2
+    -- elt1 + elt2
+    -- elt1 ~ elt2
+    -- * 
+    -- [attr$=valeur] [href$=.ma]
+    -- pseudo-class elt1:hover :visited :active :focus ...
+
+
+Positions :
+
+static : par defaut flux normal
+relative : ok
+fixed : ok
+absolute : ok
+sticky : ok
+
+Resume:
+
+
+* les Positions
+* background images 
+* padding marging
+* z-index
+* float
+* clear:both;
+
+padding ?
+flexbox
