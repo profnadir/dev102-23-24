@@ -1,0 +1,13 @@
+Rappel :
+
+- position : static relative absolute fixed sticky
+- float : left right
+- clear : both
+- padding marging
+- z-index
+- background-image : attachment size(cover) repeat 
+- image : opacity max-width vs width
+
+Objectifs: 
+
+flexbox
