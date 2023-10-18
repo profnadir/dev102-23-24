@@ -1,0 +1,32 @@
+Rappel : 
+
+-les transformations :
+
+div{
+    transform : translate rotate scale scaleX scaleY skew rotateX rotateY rotateZ
+}
+
+- les transitions
+
+div{
+    transition : 
+
+    transition-duration:
+    transition-timing-function
+    transition-dely:
+    transition-property:
+}
+
+- les animations :
+
+@keyframes ok
+animation-name ok 
+animation-duration ok
+animation-delay ok
+animation-iteration-count ok
+animation-direction ok
+animation-timing-function ok
+
+animation : 
+
+animation: name duration timing-function delay iteration-count direction fill-mode play-state;
