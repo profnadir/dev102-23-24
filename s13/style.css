@@ -1,0 +1,41 @@
+#dev102{
+    background-color: red;
+    height: 400px;
+}
+
+#products > div{
+    height: 100px;
+}
+
+#p1{
+    background-color: aqua;
+}
+
+#p2{
+    background-color: black;
+}
+
+#p3{
+    background-color: green;
+}
+
+#p4{
+    background-color: blue;
+}
+
+
+#services > div{
+    height: 100px;
+}
+
+#s1{
+    background-color: blueviolet;
+}
+
+#s2{
+    background-color:aquamarine;
+}
+
+#s3{
+    background-color:yellow;
+}
