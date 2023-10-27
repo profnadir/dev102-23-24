@@ -1,0 +1,30 @@
+Rappel : 
+
+les formulaires  : label -> form-label 
+form-control form-select input-group-text form-check form-switch
+
+les tableaux : table table-bordred table-striped table-primary ...
+
+buttons : btn btn-info - btn btn-outline-danger btn-lg
+
+display : d-block d-flex
+
+typographie : display-* h* text-center text-start text-end fw-* fs-* bg-warning
+
+spacing : m-* mt- mb- ms- me- p-* mx-auto 
+
+images : img-fluid rounded-circle 
+
+border et border raduis : border border-6 border-primary border-top border-start
+ rouded-[1-6]
+
+row (col )
+
+objectifs :
+
+navbar
+pagination
+cards
+
+
+
