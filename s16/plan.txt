@@ -1,0 +1,6 @@
+navbar nav-item nav-link
+pagination 
+les alerts 
+breadcrumbs 
+badge
+
